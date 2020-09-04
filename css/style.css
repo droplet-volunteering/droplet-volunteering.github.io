@@ -720,6 +720,50 @@ ul {
   background-color: transparent;
 }
 
+.btn_2_give {
+  display: inline-block;
+  padding: 12px 44px;
+  border-radius: 50px;
+  background-color: #FAC748;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  border: 2px solid #FAC748;
+}
+
+/* line 70, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_button.scss */
+.btn_2_give:hover {
+  color: #FAC748 !important;
+  border: 2px solid #FAC748;
+  background-color: transparent;
+}
+
+.btn_2_receive {
+  display: inline-block;
+  padding: 12px 44px;
+  border-radius: 50px;
+  background-color: #7DD6D0;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  border: 2px solid #7DD6D0;
+}
+
+/* line 70, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_button.scss */
+.btn_2_receive:hover {
+  color: #7DD6D0 !important;
+  border: 2px solid #7DD6D0;
+  background-color: transparent;
+}
+
 @media (max-width: 576px) {
   /* line 58, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_button.scss */
   .btn_2 {
@@ -6098,7 +6142,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 0px 25px;
+  padding: 25px 0px 25px;
 }
 
 @media (max-width: 991px) {
