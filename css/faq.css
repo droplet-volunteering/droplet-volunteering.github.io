@@ -1,0 +1,41 @@
+.collapsible {
+  background-color: #8390FA;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #1D2F6F;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.questions_img {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 576px) {
+  img {
+    display: block;
+    margin-left: 70%;
+    margin-right: auto;
+  }
+
+  .faqs {
+    margin-left: 128px;
+    margin-right: 128px;
+  }
+}

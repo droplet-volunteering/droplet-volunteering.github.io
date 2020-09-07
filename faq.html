@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- style collapsible expandable rows CSS -->
+    <link rel="stylesheet" href="css/faq.css">
 </head>
 
 <body>
@@ -59,7 +61,7 @@
                                     <a class="nav-link" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="faq.html">FAQ</a>
+                                    <a class="nav-link" href="#">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -78,7 +80,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner text-center">
                         <div class="breadcrumb_iner_item">
-                            <h2>Receive Help</h2>
+                            <h2>FAQ</h2>
                         </div>
                     </div>
                 </div>
@@ -86,6 +88,44 @@
         </div>
     </section>
     <!-- breadcrumb start-->
+
+    <div class="col-md-6 col-lg-6">
+        <div class="questions_img">
+            <img src="img/questions.svg" alt="questions image">
+        </div>
+    </div>
+
+    <div class="faqs">
+      <button type="button" class="collapsible">How much does it cost to become a member of Droplet?</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <button type="button" class="collapsible">How many volunteer hours do I need to commit per week/month/year?</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <button type="button" class="collapsible">Can I sign up individually or as an organization?</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
 
     <!--::use sasu part end::-->
     <!--<section class="use_sasu padding_top">
@@ -129,52 +169,7 @@
     </section>-->
     <!--::use sasu part end::-->
 
-    <!--::about_us part start::-->
-    <section class="about_us section_padding">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-6">
-                    <div>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScifpuoKQr8XT_9ukEpAPY7KsnCGqTcFfxfedGssZI8V8ujig/viewform"><img src="img/senior_img_receive.png" alt=""></a>
-                        <br>
-                        <br>
-                        <br>
-                        <h2>Senior Homes</h2>
-                        <p>Currently open for any senior home. If you are in need of volunteers who want to spend time with a senior, sign up here. Limited to virtual/online only.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="learning_img">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccykDYQjz5lAuQ_1mHGE9axC7iWIsngjfLdfNGcLyVuuN4fw/viewform"><img src="img/smallbusiness_img_receive.png" alt=""></a>
-                        <br>
-                        <br>
-                        <br>
-                        <h2>Small Business</h2>
-                        <p>Currently open for any small business in the San Diego area. If you are a small business who is in need of volunteers for virtual assistance, sign up here. Limited to virtual/online only.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--::about_us part end::-->
 
-    <!--::team part start::-->
-    <!--<section class="about_us section_padding">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-12 col-lg-12">
-                    <div class="about_us_text">
-                        <h2>Our Team</h2>
-                        <p>See the great team of people that make up Droplet.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!--::about_us part end::-->
 
     <!--::footer_part start::-->
     <footer class="footer_part">
