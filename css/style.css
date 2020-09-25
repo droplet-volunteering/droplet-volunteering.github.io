@@ -764,6 +764,29 @@ ul {
   background-color: transparent;
 }
 
+.btn_2_signup {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 12px 44px;
+  border-radius: 50px;
+  background-color: #562fc7;
+  font-size: 15px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: uppercase;
+  border: 2px solid #562fc7;
+}
+
+/* line 70, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_button.scss */
+.btn_2_signup:hover {
+  color: #562fc7 !important;
+  border: 2px solid #562fc7;
+  background-color: transparent;
+}
+
 @media (max-width: 576px) {
   /* line 58, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_button.scss */
   .btn_2 {
@@ -1389,7 +1412,7 @@ ul {
 
 /* line 533, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .blog_details p {
-  margin-bottom: 30px;
+
 }
 
 /* line 537, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
@@ -1421,6 +1444,7 @@ ul {
 .blog-info-link li {
   float: left;
   font-size: 14px;
+  margin-bottom: 30px;
 }
 
 /* line 563, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
