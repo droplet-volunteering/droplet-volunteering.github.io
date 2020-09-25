@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4383951-1b88-463a-84e2-2061bfa5ad6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/receive-posts-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receive-posts-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/receive-posts-main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kendal\Documents\GitHub\droplet-volunteering.github.io\img\profile_pic" />
+      <recent name="C:\Users\Kendal\Documents\GitHub\droplet-volunteering.github.io\img\post_img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kendal\Documents\GitHub\droplet-volunteering.github.io" />
     </key>
@@ -42,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601053350893</updated>
       <workItem from="1601053351991" duration="1706000" />
-      <workItem from="1601058844550" duration="1064000" />
+      <workItem from="1601058844550" duration="6649000" />
     </task>
     <servers />
   </component>

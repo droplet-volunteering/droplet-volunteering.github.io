@@ -1395,18 +1395,20 @@ ul {
 /* line 521, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .blog_item {
   margin-bottom: 50px;
+  display: flex;
+  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
 /* line 525, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .blog_details {
+  position: relative;
   padding: 30px 0 20px 10px;
-  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
 }
 
 @media (min-width: 768px) {
   /* line 525, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
   .blog_details {
-    padding: 60px 30px 35px 35px;
+    padding: 0 30px 35px 35px;
   }
 }
 
@@ -1482,6 +1484,7 @@ ul {
 /* line 592, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .blog_item_img {
   position: relative;
+  max-width: 15vw;
 }
 
 /* line 595, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
@@ -2069,6 +2072,10 @@ ul {
 /* line 1292, ../../01 cl html template/03_jun 2019/185 Ecobit SAAS html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
   opacity: .5;
+}
+
+.single-post .feature-img .img-fluid{
+  max-height: 35vh;
 }
 
 @media (max-width: 991px) {
